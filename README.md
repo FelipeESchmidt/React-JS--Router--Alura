@@ -14,6 +14,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
+### `npx json-server --watch db.json --port 5000`
+
+Runs the JSON server used to get data inside the website.\
+Open [http://localhost:5000/posts](http://localhost:5000/posts) for example.
+
 ### `yarn test`
 
 Launches the test runner in the interactive watch mode.\
