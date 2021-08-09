@@ -14,7 +14,7 @@ const Post = () => {
         busca(`posts/${id}`, setPost).catch(()=>{
             history.push('/404');
         });;
-    }, [id]);
+    }, [id, history]);
 
     return (
         <main className="container flex flex--centro">
